@@ -2,6 +2,8 @@
 Displays the currently playing song from pianobar.
 pianobar is a CLI client for pandora.com
 
+This is still a work-in-progress - everything works except for background art.
+
 ## Dependencies
 Data is pushed to this widget from pianobar into Dashing's API.  As such, pianobar must be configured with the 'event_command' option in the pianobar config file.
 
