@@ -20,3 +20,8 @@ Your system ```ruby``` must have the following gems installed: ```net/http```, `
   <div data-id="pianobar" data-view="Pianobar"></div>
 </li>
 ```
+
+## Support
+This widget can be found as either [a gist](https://gist.github.com/kylejohnson/8789893) or [a github repo](https://github.com/kylejohnson/dashing-pianobar-widget).
+
+If things aren't working, please open a [github issue](https://github.com/kylejohnson/dashing-pianobar-widget/issues)
