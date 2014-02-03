@@ -7,8 +7,8 @@ Displays the currently playing song from pianobar, a CLI client for pandora.com
 
 
 ## Dependencies
-Your system ```ruby``` must have the following gems install:
-1. ```net/http```
+Your system ```ruby``` must have the following gems installed:
+1. `net/http`
 2. ```json```
 3. ```uri```
 
