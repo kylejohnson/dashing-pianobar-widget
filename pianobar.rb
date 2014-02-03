@@ -6,6 +6,7 @@ require 'uri'
 
 my_dashboard = 'http://localhost:3030/widgets'
 my_widget = 'pianobar'
+dashing_auth_token = "YOUR_AUTH_TOKEN"
 
 event = ARGV.first
 
@@ -19,7 +20,7 @@ if event == 'songstart'
   uri = URI.parse("#{my_dashboard}/#{my_widget}")
   request = Net::HTTP::Post.new(uri.request_uri)
   request.body = {
-    :auth_token => 'YOUR_AUTH_TOKEN',
+    :auth_token => dashing_auth_token,
     :artist => d['artist'],
     :title => d['title'],
     :coverArt => d['coverArt']
