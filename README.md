@@ -1,6 +1,6 @@
 ## Preview
 
-
+![Pianobar Widget Preview](pianobar-widget.png)
 
 ## Description
 Displays the currently playing song from pianobar.
